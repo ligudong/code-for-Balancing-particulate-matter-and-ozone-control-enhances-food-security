@@ -8,8 +8,8 @@ The codebase follows a modular and numbered naming convention to ensure clarity 
 
 00_ prefix: Initialization scripts, including package loading (00_loadPackages.R), model formulas (00_loadFormulas.R), and common functions (00_loadFunctions.R).
 01_ prefix: Geographic masking and statistical data processing, such as crop area, production, and population statistics (01_prepare_masks_stats.R, etc.).
-02_ prefix: Data cleaning, transformation, and integration of remote sensing products and air pollution metrics (02a_preprocess_ozone_data.R, 02b_preprocess_faod_data.R, etc.).
-03_ prefix: Model fitting and counterfactual simulations for crop response to pollutants (03_run_main_models.R, 03b_ablation_study.R, etc.).
-04_ prefix: Generation of main and supplementary figures for publication, including maps, line plots, and surface plots (04a_plot_fig2ab.R, 04b_plot_fig4.R, etc.).
+02_ prefix: Data cleaning, transformation, and integration of remote sensing products and air pollution metrics (02_preprocess_ozone_data.R, etc.).
+03_ prefix: Model fitting and counterfactual simulations for crop response to pollutants (03_run_main_models.R, etc.).
+04_ prefix: Generation of main and supplementary figures for publication, including maps, line plots, and surface plots (04_plot_fig2ab.R, 04_plot_fig4.R, etc.).
 Each script is self-contained and includes appropriate comments to guide replication and adaptation.
 All analyses were conducted under R version 4.2.3, ensuring compatibility and reproducibility across platforms.
